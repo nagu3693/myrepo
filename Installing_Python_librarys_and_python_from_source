@@ -37,3 +37,20 @@
    # Upgrade Pip (Might not be Necessary)
    sudo pip3.6 install --upgrade pip
    
+   
+   
+   # Installing Libraries for Ubuntu
+   
+ apt install -y \
+ wget \
+ build-essential \
+ libssl-dev \
+ zlib1g-dev \
+ libbz2-dev \
+ libreadline-dev \
+ libsqlite3-dev \
+ libncurses5-dev \
+ libncursesw5-dev \
+ xz-utils \
+ tk-dev
+   
