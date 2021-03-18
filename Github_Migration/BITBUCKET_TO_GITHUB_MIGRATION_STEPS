@@ -1,0 +1,11 @@
+Communicate and Socialise with Various Teams in Organisastion about the Final date.
+Collect the common branching names and generic access rules and code reviewers for specific branch names and migrate  rules to Github.
+Ensure any pre and post commit hooks are there and have it migrated.
+collect the user map file in the below format 
+Create a Pre commit hook in Bitbucket so no one can push the code to bit bucket Repo.
+Keep Bitbucket in Read only mode so developers can still clone the code.
+Use Github BB exporter tool shared by Github and create and Export from existing Bitbucket Repository.
+
+bbs-exporter --read-timeout 300 --except commit_comments --pagination-limit 1000 -r ${REPO} -o migration.tar.gz
+
+(If the repo is big ignore commit_comments)
