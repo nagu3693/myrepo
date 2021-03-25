@@ -1,0 +1,12 @@
+##### ADD THE NODE SOURCE YUM REPOSITORY #################
+curl -sL https://rpm.nodesource.com/setup_12.x | sudo bash -
+
+### Install Node and NPM
+sudo yum install -y nodejs
+
+### check the version of Node and Npm
+
+node --version
+npm --version
+
+
